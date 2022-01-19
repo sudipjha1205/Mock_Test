@@ -1,0 +1,41 @@
+.navbar {
+    background: transparent;
+    height: 80px;
+    display: flex;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-active{
+    background-color: #020a63;
+    height: 80px;
+    display: flex;
+    top: 0;
+    z-index: 999;
+}
+
+.logo{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-size: 3rem;
+}
+
+.logo-size{
+    height: 36px;
+    font-style: italic;
+}
+
+.menu_items{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 65%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.each_items{
+    padding: 10px;
+    color: white;
+}
